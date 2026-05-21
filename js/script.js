@@ -181,7 +181,7 @@ function playBackgroundMusic() {
   if (musicaParam) {
     // Decodifica y previene rutas maliciosas
     musicaParam = decodeURIComponent(musicaParam).replace(/[^\w\d .\-]/g, '');
-    audio.src = 'Music/' + musicaParam;
+    audio.src = 'music/' + musicaParam;
   }
 
   // --- Opción YouTube (solo mensaje de ayuda) ---
